@@ -1,3 +1,3 @@
-from pympler.asizeof import asizeof, asizesof
+from pympler.asizeof import asizesof
 
-print(asizeof(1))
+print(asizesof(1))
