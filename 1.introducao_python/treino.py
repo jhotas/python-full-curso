@@ -5,9 +5,9 @@ def adicionar_nome(nome):
 
 def pesquisa():
     pesqnome = input('Pesquise o nome:')
-    nomes = list(filter(lambda nomes: nomes == pesqnome, nomes))
-    print(nomes)
-    return 0
+    nomes_encontrados = list(filter(lambda nome: nome == pesqnome, nomes))
+    print(nomes_encontrados)
+    return
 
 def inicio():
     print('\n--- PESQUISAR PESSOAS ---')
@@ -18,13 +18,15 @@ def inicio():
         adicionar_nome(addnome)
         print(nomes)
         return inicio()
-    if opcao == 2:
+    elif opcao == 2:
         pesquisa()
         return inicio()
+    elif opcao == 3:
+        print('Encerrando o programa.')
+        return 0
+    else: 
+        print('Digite uma opção válida!')
+    return inicio()
         
     
 inicio()
-
-#pesqnome = input('Pesquise o nome: ')
-#nomes = list(filter(lambda nomes: nomes == pesqnome, nomes))
-#print(nomes)

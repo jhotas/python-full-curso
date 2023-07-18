@@ -1,4 +1,5 @@
 import pickle
-x = 1
+x = [1, 2, 3, 4]
 
-print(pickle.dumps(x))
+string = pickle.dumps(x)
+print(pickle.loads(string))
