@@ -20,8 +20,5 @@ class Cachorro(Animal):
     def latir(self):
         print('Estou latindo')
 
-cachorro = Cachorro()
-cachorro.felino()
-
 gato = Gato()
 gato.felino()
