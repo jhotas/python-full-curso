@@ -12,11 +12,15 @@ class Pessoas:
 
     def logar_sistema(self):
         print(f'{self.retorna_nome} está logando no sistema!')
+
+    @classmethod # Metodos de classe
+    def andar(cls): #
+        cls.pernas = 2
+        return None
         
-p1 = Pessoas('Jean Oliveira', 21)
-p2 = Pessoas('Johan Oliveira', 12)
+#p1 = Pessoas('Jean Oliveira', 21)
+#p2 = Pessoas('Johan Oliveira', 12)
 
-Pessoas.possui_boca = False
-
-print(p1.possui_boca)
-print(p2.possui_boca)
+print(Pessoas.possui_boca)
+Pessoas.andar()
+print(Pessoas.pernas)

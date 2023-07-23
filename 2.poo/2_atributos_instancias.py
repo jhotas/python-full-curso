@@ -1,7 +1,7 @@
 class Pessoas:
     def __init__ (self, nome, idade):
-        self.nome = nome
-        self.idade = idade
+        self.nome = nome # Atributos de instância
+        self.idade = idade #
 
     def retorna_nome(self):
         return self.nome
