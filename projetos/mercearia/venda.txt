@@ -1,0 +1,3 @@
+Banana|R$5|Frutas|Jean|Johan|3|26/07/2023
+Banana|R$5|Frutas|Jean|Johan|3|26/07/2023
+Banana|R$5|Frutas|Jean|Johan|3|26/07/2023
